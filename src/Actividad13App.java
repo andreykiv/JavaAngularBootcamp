@@ -13,14 +13,14 @@ Los signos aritméticos disponibles son:
 public class Actividad13App {
 	
 	public static void CalculadoraInversa() {
-		
+		//obtenemos inputs del user
 		String num1 = JOptionPane.showInputDialog("Introduce el primer número");
 		String num2 = JOptionPane.showInputDialog("Introduce el segundo número");
 		String signo = JOptionPane.showInputDialog("Introduce el signo aritmético");
-		
+		//parseamos str en num
 		int parsedNum1 = Integer.parseInt(num1);
 		int parsedNum2 = Integer.parseInt(num2);
-		
+		//switch para cada caso
 		switch(signo) {
 			case "+":
 				int result = parsedNum1 + parsedNum2;
@@ -47,12 +47,12 @@ public class Actividad13App {
 				JOptionPane.showMessageDialog(null, "El resultado es: "+ result);
 				break;
 			default:
-					JOptionPane.showMessageDialog(null, "Operador no valido");
+				JOptionPane.showMessageDialog(null, "Operador no valido");
 		}
 	}
 	
 	public static void main(String[] args) {
-		
+		//invocamos el metodo definido previamente
 		CalculadoraInversa();
 	}
 
