@@ -1,4 +1,4 @@
 # JavaAngularBootcamp
 
-Es necesario seleccionar el nombre de la branch de la unidad que se quiere visualizar. 
+Please use branches to navigate through activities that were made during the course.
 
