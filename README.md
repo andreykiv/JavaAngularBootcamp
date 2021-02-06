@@ -6,8 +6,8 @@ Those activities were made with a purpose to practice topics such as creation of
 In addition to the new concepts, notions from previous units were also heavily used (e.g. iteration, usage of 
 class methods, import java packages).
 
-Important to mention that all activities are within one project. Meaning that there is a main class within 
-each exercice. 
+Important to mention that all activities are within one project. Meaning that there is a method main within each
+exercice. 
 ```
 #### 2. Tools used to run activities
 ```
