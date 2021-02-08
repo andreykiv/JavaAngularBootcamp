@@ -6,7 +6,7 @@ Those activities were made with a purpose to practice topics such as ArrayLists 
 In addition to the new concepts, notions from previous units were also heavily used (e.g. iteration, usage of 
 class methods, import java packages).
 
-Last exercice (Actividad4) was built using methods and practices that were created in previous exerices 
+Last exercise (Actividad4) was built using methods and practices that were created in previous exercices 
 adding some new features. For instance, stock is generated randomly following this type 
 of structure: {"itemName":[itemPrice, itemQuantity, VAT]}.
 
