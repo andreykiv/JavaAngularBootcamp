@@ -14,6 +14,7 @@ Each exercice has it's own repository with a description of an exercice and memb
 Links below:
 ```
 [Exercice 1](https://github.com/andreykiv/Electrodomesticos)
+
 [Exercice 6](https://github.com/andreykiv/Sala-de-Cine)
 #### 2. Tools used to run activities
 ```
