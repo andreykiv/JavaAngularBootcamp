@@ -4,7 +4,6 @@
 ```
 Those activities were made with a purpose of practicing topics such as Handling of Exceptions and 
 improvement of packages structure within projects that should follow an OOP paradigm.
-
 ```
 #### 2. Tools used to run activities
 ```
