@@ -12,12 +12,9 @@ the interface, those methods were expanded inside their own class.
 Exercices 1 and 6 from this unit were made in a team of 3 members.
 Each exercice has it's own repository with a description of an exercice and members of the team.
 Links below:
-
+```
 [Exercice 1](https://github.com/andreykiv/Electrodomesticos)
 [Exercice 6](https://github.com/andreykiv/Sala-de-Cine)
-
-
-```
 #### 2. Tools used to run activities
 ```
 IDE                   Eclipse IDE Version: 2020-12 (4.18.0)
