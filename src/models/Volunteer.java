@@ -2,21 +2,49 @@ package models;
 
 public class Volunteer extends Empleado{
 	//CONSTANTES
-	private final double DEDUCCION = 0;
+
 	
 	//ATRIBUTOS
-	//salario mensual + bonificaciones/deducciones
-	private double salarioMensualReal;
+	private double ayudasGobierno;
+	private double sueldo;
 	
 	//CONSTRUCTORES
 	
 	//por defecto
 	public Volunteer() {
-		this.salarioMensualReal = this.salarioMensual * DEDUCCION;
+		this.sueldo = 0;
+		this.ayudasGobierno = 0;
+	}
+	
+	public Volunteer(double sueldo) {
+		super();
+		this.sueldo = sueldo;
+		esAdecuado();
+	}
+	
+	//comprobamos que el el campo del sueldo es el adecuado
+	public void esAdecuado() {
+		if(this.sueldo != 0) {
+			System.out.println("El voluntario no puede cobrar un sueldo");
+			this.sueldo = 0;
+		}
+	}
+	//GETTERS Y SETTERS
+
+	public double getAyudasGobierno() {
+		return ayudasGobierno;
 	}
 
-	//GETTERS Y SETTERS
-	public double getSalarioFinal() {
-		return salarioMensualReal;
+	public void setAyudasGobierno(double ayudasGobierno) {
+		this.ayudasGobierno = ayudasGobierno;
 	}
+
+	public double getSueldo() {
+		return sueldo;
+	}
+
+	public void setSueldo(double sueldo) {
+		this.sueldo = sueldo;
+	}
+	
 }
