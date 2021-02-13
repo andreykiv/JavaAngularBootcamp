@@ -2,8 +2,8 @@
 
 #### 1. Description
 ```
-Those activities were made with a purpose to practice topics such as Handling of Exceptions and to get us used
-to practices such as an OOP paradigm.
+Those activities were made with a purpose to practice topics such as Handling of Exceptions and 
+start making a better structure of packages inside projects that should follow a OOP paradigm.
 
 ```
 #### 2. Tools used to run activities
