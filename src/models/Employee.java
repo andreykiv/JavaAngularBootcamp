@@ -3,10 +3,9 @@ package models;
 public class Employee extends Empleado {
 	//CONSTANTES
 	private final double DEDUCCION = 0.85;
-	//tipos de empleado
-	protected final String[] TIPOSEMPLEADOS_DEF = {"junior", "mid", "senior"};
+
 	//ATRIBUTOS
-	//salario mensual + bonificaciones/deducciones
+	//salario mensual - deducciones
 	protected double salarioMensualReal;
 	
 	//CONSTRUCTORES

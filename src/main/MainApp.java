@@ -15,12 +15,12 @@ public class MainApp {
 		Junior newJun = new Junior(1111);
 		Mid newMid = new Mid(1111);
 		Senior newSenior = new Senior(1500);
-		Volunteer newVol = new Volunteer(1233);
-		
-		System.out.println(newJun.getSalarioMensualFinal());
-		System.out.println(newMid.getSalarioMensualFinal());
-		System.out.println(newSenior.getSalarioMensualFinal());
-		System.out.println("Salario final boss: " + newBos.getSalarioFinal());
+		Volunteer newVol = new Volunteer(1233, 500);
+		System.out.println(newBos.getSalarioBrutoMensual());
+
+		System.out.println("El bonus anual del Boss es de: " + newBos.getBonus());
+
+	
 		
 	}
 

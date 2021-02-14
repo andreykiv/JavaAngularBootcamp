@@ -5,7 +5,7 @@ public class Empleado {
 	
 	//ATRIBUTOS
 	protected double salarioMensual;
-	
+
 	//CONSTRUCTORES
 	//por defecto
 	public Empleado() {
@@ -17,6 +17,14 @@ public class Empleado {
 		this.salarioMensual = salario; 
 	}
 	
+	//METODOS
+	//10% del sou anual de cada empleat
+	public double getBonus() {
+		double bonusSalario = 0;
+		bonusSalario = this.salarioMensual * 0.1 * 12;
+		return bonusSalario;
+	}
+	
 	//GETTERS Y SETTERS
 	public double getSalarioMensual() {
 		return salarioMensual;
@@ -25,12 +33,16 @@ public class Empleado {
 	public void setSalarioMensual(double salarioMensual) {
 		this.salarioMensual = salarioMensual;
 	}
+	
+	
 
 	//TOSTRING
 	@Override
 	public String toString() {
 		return "Empleado [salarioMensual=" + salarioMensual + "]";
 	}
+	
+	
 }
 
 

@@ -16,9 +16,10 @@ public class Volunteer extends Empleado{
 		this.ayudasGobierno = 0;
 	}
 	
-	public Volunteer(double sueldo) {
+	public Volunteer(double sueldo, double ayudasGobierno) {
 		super();
 		this.sueldo = sueldo;
+		this.ayudasGobierno = ayudasGobierno;
 		esAdecuado();
 	}
 	
@@ -27,6 +28,10 @@ public class Volunteer extends Empleado{
 		if(this.sueldo != 0) {
 			System.out.println("El voluntario no puede cobrar un sueldo");
 			this.sueldo = 0;
+		}
+		if(this.ayudasGobierno > 300) {
+			System.out.println("Las ayudas del gobierno no pueden superar 300€");
+			this.ayudasGobierno = 300;
 		}
 	}
 	//GETTERS Y SETTERS
