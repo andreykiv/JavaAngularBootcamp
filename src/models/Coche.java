@@ -1,59 +1,44 @@
 package models;
 
-public class Coche {
-	//ATRIBUTOS
-	protected String matricula;
-	protected String marca;
-	protected String color;
-	protected String marcaRuedasDelanteras;
-	protected double diametroRuedasDelanteras;
-	protected String marcaRuedasTraseras;
-	protected double diametroRuedasTraseras;
+/**
+ * @author: Myroslav Andreykiv
+ **/
 
+//subclase de Vehiculo
+public class Coche extends Vehiculo{
+	//ATRIBUTOS
+	private String marcaRuedasDelanteras;
+	private double diametroRuedasDelanteras;
+	private String marcaRuedasTraseras;
+	private double diametroRuedasTraseras;
 	
 	//CONSTRUCTORES
 	//default
 	public Coche() {
-		this.matricula = "";
-		this.marca = "";
-		this.color = "";
+		this.marcaRuedasDelanteras = "";
+		this.diametroRuedasDelanteras = 0;
+		this.marcaRuedasTraseras = "";
+		this.diametroRuedasTraseras = 0;
 	}
 	//con tres parametros
 	public Coche(String matricula, String marca, String color) {
-		this.matricula = matricula;
-		this.marca = marca;
-		this.color = color;
-	}
-	//con todos los parametros (7)
-	public Coche(String matricula, String marca, String color, String marcaRuedasDelanteras, double diametroRuedasDelanteras, String 	marcaRuedasTraseras, double diametroRuedasTraseras) {
-		this.matricula = matricula;
-		this.marca = marca;
-		this.color = color;
-		this.diametroRuedasDelanteras = diametroRuedasDelanteras;
-		this.diametroRuedasTraseras = diametroRuedasTraseras;
-		this.marcaRuedasDelanteras = marcaRuedasDelanteras;
-		this.marcaRuedasTraseras = marcaRuedasTraseras;
+		super(matricula, marca, color);
+		this.marcaRuedasDelanteras = "";
+		this.diametroRuedasDelanteras = 0;
+		this.marcaRuedasTraseras = "";
+		this.diametroRuedasTraseras = 0;
 	}
 	
+	//con todos los parametros (7)
+	public Coche(String matricula, String marca, String color, String marcaRuedasDelanteras, double diametroRuedasDelanteras, String marcaRuedasTraseras, double diametroRuedasTraseras) {
+		super(matricula, marca, color);
+		this.marcaRuedasDelanteras = marcaRuedasDelanteras;
+		this.diametroRuedasDelanteras = diametroRuedasDelanteras;
+		this.marcaRuedasTraseras = marcaRuedasTraseras;
+		this.diametroRuedasTraseras = diametroRuedasTraseras;
+	}
+
 	//GETTERS Y SETTERS
-	public String getMatricula() {
-		return matricula;
-	}
-	public void setMatricula(String matricula) {
-		this.matricula = matricula;
-	}
-	public String getMarca() {
-		return marca;
-	}
-	public void setMarca(String marca) {
-		this.marca = marca;
-	}
-	public String getColor() {
-		return color;
-	}
-	public void setColor(String color) {
-		this.color = color;
-	}
 	public String getMarcaRuedasDelanteras() {
 		return marcaRuedasDelanteras;
 	}
@@ -79,5 +64,13 @@ public class Coche {
 		this.diametroRuedasTraseras = diametroRuedasTraseras;
 	}
 	
+	//TOSTRING
 	
+	@Override
+	public String toString() {
+		return "Coche [matricula=" + matricula + ", marca=" + marca + ", color=" + color + ", marcaRuedasDelanteras="
+				+ marcaRuedasDelanteras + ", diametroRuedasDelanteras=" + diametroRuedasDelanteras
+				+ ", marcaRuedasTraseras=" + marcaRuedasTraseras + ", diametroRuedasTraseras=" + diametroRuedasTraseras
+				+ "]";
+	}
 }
