@@ -2,7 +2,7 @@
 
 #### 1. Description
 ```
-The goal of the exercice was to create a program which enables to create different types of members of one company. 
+The goal of the exercice was to create a program which enables to create different types of members of a company. 
 Boss, manager, volunteer and employee who can be divided by Junior, Mid and Senior. Each of the types have 
 their own retribution system that should be taken into account when finding out their salary. 
 
