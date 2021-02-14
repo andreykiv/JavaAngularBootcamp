@@ -29,6 +29,10 @@ public class Coche {
 		this.matricula = matricula;
 		this.marca = marca;
 		this.color = color;
+		this.diametroRuedasDelanteras = diametroRuedasDelanteras;
+		this.diametroRuedasTraseras = diametroRuedasTraseras;
+		this.marcaRuedasDelanteras = marcaRuedasDelanteras;
+		this.marcaRuedasTraseras = marcaRuedasTraseras;
 	}
 	
 	//GETTERS Y SETTERS
