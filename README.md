@@ -11,8 +11,8 @@ There is also a superclass 'Empleado' from which Boss, Manager, Volunteer and Em
 
 This is knows as a multilevel inheritance (Empleado - (Boss, Manager, Volunteer, Employee) - (Junior, Mid, Senior)).
 
-Finally, a task was given to create a method that calculates the bonus to each of the members of the company depending of their
-salary. 
+Finally, a task was given to create a method that calculates the bonus to each of the members of the company depending on 
+their salary. 
 ```
 
 #### 2. Tools used to run activities
