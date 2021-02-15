@@ -12,7 +12,7 @@ The structure of classes is as follows:
 Each vehicle share most of its attributes that were inherited from a superclass Vehicle. Same goes for people, which inherit from 
 Persona superclass. 
 
-It was also asked to create two validator methods:
+It was also requested a creation of two validator methods:
 
 # First one to check if the vehicle registration plate has a specific format of 4 digits+ 2 or 3 letters (regex 
 was used to verify this condition).
