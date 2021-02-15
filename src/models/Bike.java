@@ -1,4 +1,7 @@
 package models;
+
+import java.util.ArrayList;
+
 //subclase de Vehiculo
 public class Bike extends Vehiculo {
 	//ATRIBUTOS
@@ -22,7 +25,7 @@ public class Bike extends Vehiculo {
 		this.marcaRuedaTrasera = "";
 		this.diametroRuedaTrasera = 0;
 	}
-	//con todos los parametros (7)
+	//con los 7 parametros 
 	public Bike(String matricula, String marca, String color, String marcaRuedasDelanteras, double diametroRuedasDelanteras, String marcaRuedasTraseras, double diametroRuedasTraseras) {
 		super(matricula, marca, color);
 		this.marcaRuedaDelantera = marcaRuedasDelanteras;
@@ -30,6 +33,16 @@ public class Bike extends Vehiculo {
 		this.marcaRuedaTrasera = marcaRuedasTraseras;
 		this.diametroRuedaTrasera = diametroRuedasTraseras;
 	}
+	
+	//con los 9 parametros 7 anteriores + titular y arraylist de personas
+	public Bike(String matricula, String marca, String color, String marcaRuedasDelanteras, double diametroRuedasDelanteras, String marcaRuedasTraseras, double diametroRuedasTraseras, Titular titular, ArrayList personas) {
+		super(matricula, marca, color, titular, personas);
+		this.marcaRuedaDelantera = marcaRuedasDelanteras;
+		this.diametroRuedaDelantera = diametroRuedasDelanteras;
+		this.marcaRuedaTrasera = marcaRuedasTraseras;
+		this.diametroRuedaTrasera = diametroRuedasTraseras;
+	}
+	
 
 	//GETTERS Y SETTERS
 	public String getMarcaRuedaDelantera() {
@@ -56,6 +69,7 @@ public class Bike extends Vehiculo {
 	public void setDiametroRuedaTrasera(double diametroRuedaTrasera) {
 		this.diametroRuedaTrasera = diametroRuedaTrasera;
 	}
+
 	
 	
 	//TOSTRING
@@ -63,7 +77,8 @@ public class Bike extends Vehiculo {
 	public String toString() {
 		return "Bike [marcaRuedaDelantera=" + marcaRuedaDelantera + ", diametroRuedaDelantera=" + diametroRuedaDelantera
 				+ ", marcaRuedaTrasera=" + marcaRuedaTrasera + ", diametroRuedaTrasera=" + diametroRuedaTrasera
-				+ ", matricula=" + matricula + ", marca=" + marca + ", color=" + color + "]";
+				+ ", matricula=" + matricula + ", marca=" + marca + ", color=" + color + ", titular=" + titular
+				+ ", personas=" + personas + "]";
 	}
 
 }

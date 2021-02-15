@@ -1,5 +1,7 @@
 package models;
 
+import java.util.ArrayList;
+
 public class Truck extends Vehiculo {
 	//ATRIBUTOS
 		private String marcaRuedasDelanteras;
@@ -24,9 +26,18 @@ public class Truck extends Vehiculo {
 			this.diametroRuedasTraseras = 0;
 		}
 		
-		//con todos los parametros (7)
+		//con los (7) parametros 
 		public Truck(String matricula, String marca, String color, String marcaRuedasDelanteras, double diametroRuedasDelanteras, String marcaRuedasTraseras, double diametroRuedasTraseras) {
 			super(matricula, marca, color);
+			this.marcaRuedasDelanteras = marcaRuedasDelanteras;
+			this.diametroRuedasDelanteras = diametroRuedasDelanteras;
+			this.marcaRuedasTraseras = marcaRuedasTraseras;
+			this.diametroRuedasTraseras = diametroRuedasTraseras;
+		}
+		
+		//con los 7parametros + 2
+		public Truck(String matricula, String marca, String color, String marcaRuedasDelanteras, double diametroRuedasDelanteras, String marcaRuedasTraseras, double diametroRuedasTraseras, Titular titular, ArrayList personas) {
+			super(matricula, marca, color, titular, personas);
 			this.marcaRuedasDelanteras = marcaRuedasDelanteras;
 			this.diametroRuedasDelanteras = diametroRuedasDelanteras;
 			this.marcaRuedasTraseras = marcaRuedasTraseras;
@@ -58,13 +69,15 @@ public class Truck extends Vehiculo {
 		public void setDiametroRuedasTraseras(double diametroRuedasTraseras) {
 			this.diametroRuedasTraseras = diametroRuedasTraseras;
 		}
-		
+
 		//TOSTRING
 		@Override
 		public String toString() {
-			return "Camion [marcaRuedasDelanteras=" + marcaRuedasDelanteras + ", diametroRuedasDelanteras="
+			return "Truck [marcaRuedasDelanteras=" + marcaRuedasDelanteras + ", diametroRuedasDelanteras="
 					+ diametroRuedasDelanteras + ", marcaRuedasTraseras=" + marcaRuedasTraseras
 					+ ", diametroRuedasTraseras=" + diametroRuedasTraseras + ", matricula=" + matricula + ", marca="
-					+ marca + ", color=" + color + "]";
+					+ marca + ", color=" + color + ", titular=" + titular + ", personas=" + personas + "]";
 		}
+		
+		
 }

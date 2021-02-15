@@ -1,5 +1,7 @@
 package models;
 
+import java.util.ArrayList;
+
 /**
  * @author: Myroslav Andreykiv
  **/
@@ -29,9 +31,17 @@ public class Coche extends Vehiculo{
 		this.diametroRuedasTraseras = 0;
 	}
 	
-	//con todos los parametros (7)
+	//con los (7) parametros 
 	public Coche(String matricula, String marca, String color, String marcaRuedasDelanteras, double diametroRuedasDelanteras, String marcaRuedasTraseras, double diametroRuedasTraseras) {
 		super(matricula, marca, color);
+		this.marcaRuedasDelanteras = marcaRuedasDelanteras;
+		this.diametroRuedasDelanteras = diametroRuedasDelanteras;
+		this.marcaRuedasTraseras = marcaRuedasTraseras;
+		this.diametroRuedasTraseras = diametroRuedasTraseras;
+	}
+	//con los 9 parametros (milestone 3)
+	public Coche(String matricula, String marca, String color, String marcaRuedasDelanteras, double diametroRuedasDelanteras, String marcaRuedasTraseras, double diametroRuedasTraseras, Titular titular, ArrayList personas) {
+		super(matricula, marca, color, titular, personas);
 		this.marcaRuedasDelanteras = marcaRuedasDelanteras;
 		this.diametroRuedasDelanteras = diametroRuedasDelanteras;
 		this.marcaRuedasTraseras = marcaRuedasTraseras;
@@ -63,14 +73,15 @@ public class Coche extends Vehiculo{
 	public void setDiametroRuedasTraseras(double diametroRuedasTraseras) {
 		this.diametroRuedasTraseras = diametroRuedasTraseras;
 	}
+
 	
 	//TOSTRING
-	
 	@Override
 	public String toString() {
-		return "Coche [matricula=" + matricula + ", marca=" + marca + ", color=" + color + ", marcaRuedasDelanteras="
-				+ marcaRuedasDelanteras + ", diametroRuedasDelanteras=" + diametroRuedasDelanteras
-				+ ", marcaRuedasTraseras=" + marcaRuedasTraseras + ", diametroRuedasTraseras=" + diametroRuedasTraseras
-				+ "]";
+		return "Coche [marcaRuedasDelanteras=" + marcaRuedasDelanteras + ", diametroRuedasDelanteras="
+				+ diametroRuedasDelanteras + ", marcaRuedasTraseras=" + marcaRuedasTraseras
+				+ ", diametroRuedasTraseras=" + diametroRuedasTraseras + ", matricula=" + matricula + ", marca=" + marca
+				+ ", color=" + color + ", titular=" + titular + ", personas=" + personas + "]";
 	}
+
 }
