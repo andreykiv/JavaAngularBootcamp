@@ -10,7 +10,6 @@ remotly. Creation of the server was done using tools such us VirtualBox and Fedo
 Once connection was established through the driver that Java offers to it's users (mysql-connector-java),
 it was requested to create tables that are related between one another and finally to insert
 a valid registers that respects data constraints.
-
 ```
 #### 2. Tools used to run activities
 ```
