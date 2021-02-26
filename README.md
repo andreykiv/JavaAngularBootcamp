@@ -14,8 +14,8 @@ a valid registers that respects data constraints.
 ```
 #### 2. Tools used to run activities
 ```
-IDE                                     Eclipse IDE Version: 2020-12 (4.18.0)
-JRE System Library                      jdk.1.8.0_281  
+IDE: Eclipse IDE Version: 2020-12 (4.18.0)
+JRE System Library: jdk.1.8.0_281  
 MySQL Ver 8.0.22 for Linux on X86_64
 Fedora 33 (Server Edition)
 Oracle VM Virtual Box 6.1.
