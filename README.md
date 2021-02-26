@@ -7,7 +7,7 @@ The goal of the unit was to implement a connection between mySQL server and Java
 Each of the exercices has it's own mySQL database, which is based on a server located
 remotly. Creation of the server was done using tools such us VirtualBox and Fedora 33 (Server Edition).
 
-Once connection was established through the driver that Java offers to it's users (mysql-connector-java)
+Once connection was established through the driver that Java offers to it's users (mysql-connector-java),
 it was requested to create tables that are related between one another and finally to insert
 a valid registers that respects data constraints.
 
