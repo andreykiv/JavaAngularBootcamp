@@ -11,7 +11,7 @@ Once connection was established through the driver that Java offers to it's user
 it was requested to create tables that are related between one another and finally to insert
 a valid registers that respects data constraints.
 
-Important to mention that the connector should be added into the project in order to make it work.
+Important to mention that connector should be added into the project in order to make it work.
 Within Eclipse right click on the project folder--> Build Path--> Configure Build Path--> Add External JARs...
 -->Select .jar file downloaded from oracle. --> Apply and Close---> PROFIT
 ```
