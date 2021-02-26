@@ -22,6 +22,6 @@ Oracle VM Virtual Box 6.1.
 ```
 
 #### 3. Libraries to run activities
-```
-[mysql-connector-java-8.0.23 ](https://dev.mysql.com/downloads/connector/j/?os=26)
-```
+
+[mysql-connector-java-8.0.23](https://dev.mysql.com/downloads/connector/j/?os=26)
+
