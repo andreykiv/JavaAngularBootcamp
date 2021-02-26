@@ -12,8 +12,8 @@ it was requested to create tables that are related between one another and final
 a valid registers that respects data constraints.
 
 Important to mention that the connector should be added into the project in order to make it work.
-Within Eclipse right click on the project folder--> Build Path--> Configure Build Path--> Add External JARS...
--->Select .jar file downloaded from oracle website. --> Apply and Close---> PROFIT
+Within Eclipse right click on the project folder--> Build Path--> Configure Build Path--> Add External JARs...
+-->Select .jar file downloaded from oracle. --> Apply and Close---> PROFIT
 ```
 #### 2. Tools used to run activities
 ```
