@@ -10,6 +10,10 @@ remotly. Creation of the server was done using tools such us VirtualBox and Fedo
 Once connection was established through the driver that Java offers to it's users (mysql-connector-java),
 it was requested to create tables that are related between one another and finally to insert
 a valid registers that respects data constraints.
+
+Important to mention that the connector should be added into the project in order to make it work.
+Within Eclipse right click on the project folder--> Build Path--> Configure Build Path--> Add External JARS...
+-->Select .jar file downloaded from oracle website. --> Apply and Close---> PROFIT
 ```
 #### 2. Tools used to run activities
 ```
@@ -20,7 +24,7 @@ Fedora 33 (Server Edition)
 Oracle VM Virtual Box 6.1.
 ```
 
-#### 3. Libraries to run activities
+#### 3. Connector Java_mySQL:
 
 [mysql-connector-java-8.0.23](https://dev.mysql.com/downloads/connector/j/?os=26)
 
