@@ -16,7 +16,6 @@ as well as text inputs.
 ```
 IDE: Eclipse IDE Version: 2020-12 (4.18.0)
 JRE System Library: jdk.1.8.0_281  
-
 ```
 
 
