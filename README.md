@@ -10,7 +10,6 @@ installed using Eclipse's marketplace. None of the exercices were build using th
 
 Event listeners are used in each of the exercices to interact with user actions such us button clicks 
 as well as text inputs. 
-
 ```
 #### 2. Tools used to run activities
 ```
