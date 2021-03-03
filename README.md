@@ -2,7 +2,8 @@
 
 #### 1. Description
 ```
-This unit was oriented towards implementation of a JUnit tests within a Maven project using JUnit 5 Framework. 
+This unit was oriented towards implementation of a JUnit tests within a Maven project using 
+JUnit 5 Framework. 
 
 It was important to reach a test coverage of over 90% which was successfully achieved. 
 ```
