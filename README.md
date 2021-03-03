@@ -13,7 +13,9 @@ JRE System Library: jdk.1.8.0_281
 JUnit 5 with all it's artifacts (available within pom.xml)
 ```
 #### 2. Documentation
+
 [Junit5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
+
 [Dependency Diagram](https://junit.org/junit5/docs/current/user-guide/images/component-diagram.svg)
 
 
