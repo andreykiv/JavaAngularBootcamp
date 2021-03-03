@@ -11,6 +11,7 @@ It was important to reach a test coverage of over 90% which was successfully ach
 ```
 IDE: Eclipse IDE Version: 2020-12 (4.18.0)
 JRE System Library: jdk.1.8.0_281  
+Maven: version 3.6.3 (integrated within Eclipse)
 JUnit 5 with all it's artifacts (available within pom.xml)
 ```
 #### 3. Useful Links
