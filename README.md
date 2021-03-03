@@ -13,7 +13,7 @@ IDE: Eclipse IDE Version: 2020-12 (4.18.0)
 JRE System Library: jdk.1.8.0_281  
 JUnit 5 with all it's artifacts (available within pom.xml)
 ```
-#### 2. Documentation
+#### 3. Useful Links
 
 [Junit5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
 
