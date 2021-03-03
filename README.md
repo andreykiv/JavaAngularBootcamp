@@ -20,5 +20,7 @@ JUnit 5 with all it's artifacts (available within pom.xml)
 
 [Dependency Diagram](https://junit.org/junit5/docs/current/user-guide/images/component-diagram.svg)
 
+[Maven Repository](https://mvnrepository.com/)
+
 
 
