@@ -7,7 +7,7 @@ Each of the Maven projects has it's own pom.xlm file which is the file where all
 project are linked into.
 
 Besides the implementation of Maven, Java's interface libraries such us Java Swing/AWT was heavily used 
-in each of the exercice. 
+in each of the exercise. 
 ```
 #### 2. Tools used to run activities
 ```
