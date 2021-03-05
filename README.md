@@ -2,7 +2,7 @@
 
 #### 1. Description
 ```
-The main goal of the unit was to get used to an implementation of Maven projects within Eclipse IDE. 
+The main goal of the unit was to get being used to an implementation of Maven projects within Eclipse IDE. 
 Each of the Maven projects has it's own pom.xlm file which is the file where all the dependencies of the
 project are linked into.
 
