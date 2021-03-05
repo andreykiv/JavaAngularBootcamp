@@ -6,7 +6,7 @@ The main goal of the unit was to get used to an implementation of Maven projects
 Each of the Maven projects has it's own pom.xlm file which is the file where all the dependencies of the
 project are linked into.
 
-Besides the implementation of Maven, Java's interface libraries such us Java Swing/AWT was heavily used 
+Besides the implementation of Maven, Java's interface library such as Java Swing/AWT was heavily used 
 in each of the exercise. 
 ```
 #### 2. Tools used to run activities
