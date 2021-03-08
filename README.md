@@ -7,14 +7,14 @@ In this unit the main goal was to practice the creation of a MVC (Model Views Co
 Each of the exercices follows the MVC architecture which consists of three clearly defined parts of a 
 program which are models, controller and views. Views doesn't have any logic implemnented but only a visual
 part that user is interacting with. Controller connects the logic of the app with the views. Finally, models
-represent data of the app and methods that allow to interact with that data. 
+represent the data of an app with it's methods that allow to interact with that data. 
 Each of the models is divided by three parts: 
 - DAO (data access object) is the part where the methods that allow interact with the database are defined. 
 - DTO (data transfer object) a part where each of the data entities is represented by it's own class. 
 - Service - methods of validators that validate the inputs of the user before sending it to DAO. 
 
-Within models package there is also included Connection which is the part that represents the connection
-with the database. 
+Within models package there is also included Connection package which is the part that represents the 
+connection with the database. 
 
 
 ```
