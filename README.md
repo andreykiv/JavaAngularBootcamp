@@ -13,8 +13,8 @@ Each of the models is divided by three parts:
 - DTO (data transfer object) a part where each of the data entities is represented by it's own class. 
 - Service - methods of validators that validate the inputs of the user before sending it to DAO. 
 
-Within models package there is also included Connection which is the part that represents the connection with 
-the database. 
+Within models package there is also included Connection which is the part that represents the connection
+with the database. 
 
 
 ```
