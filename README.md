@@ -26,7 +26,6 @@ Maven: version 3.6.3 (integrated within Eclipse)
 MySQL Ver 8.0.22 for Linux on X86_64
 Fedora 33 (Server Edition)
 Oracle VM Virtual Box 6.1.
-
 ```
 #### 3. Useful Links
 
