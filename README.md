@@ -2,8 +2,8 @@
 
 #### 1. Description
 ```
-The purpose of this unit was to use a Spring framework in order to create a Maven and Gradle projects with Spring's
-Tool Suite IDE help. 
+The purpose of this unit was to use a Spring framework in order to create a Maven and Gradle 
+projects with Spring's Tool Suite IDE help. 
 
 List of dependencies installed in each project:
 
