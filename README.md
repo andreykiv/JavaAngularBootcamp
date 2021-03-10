@@ -27,7 +27,7 @@ Postman: version 8.0.7
 
 [Spring Quick start guide](https://spring.io/quickstart)
 
-[Postman tool download link](https://www.postman.com/downloads/)
+[Postman download link](https://www.postman.com/downloads/)
 
 
 
