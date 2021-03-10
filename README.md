@@ -2,7 +2,8 @@
 
 #### 1. Description
 ```
-In this unit the goal was to create a basic CRUD project using maven and Spring Tool Suite 4 IDE. 
+In this unit the goal was to create a basic CRUD project with it's end-points using maven
+and Spring Tool Suite 4 IDE. 
 The exercice is structured in MVC (Model, Views, Controller) pattern, except that in this case there is no 
 views part. To interact with an API without an grafic interface, it was used a tool called Postman (link below).
 H2 imbedded Database was used for this exercice, it automatically creates a fresh database specified in 
