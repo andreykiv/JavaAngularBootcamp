@@ -7,7 +7,7 @@ and Spring Tool Suite 4 IDE.
 The exercice is structured in MVC (Model, Views, Controller) pattern, except that in this case there is no 
 views part. To interact with an API without GUI, Postman was used (link below).
 
-H2 imbedded Database was also of a big help when doing this exercice. It automatically creates a fresh database 
+H2 imbedded Database was also of a big help when doing the task. It automatically creates a fresh database 
 specified in data.sql file when the App is launched.
 
 List of installed dependencies:
