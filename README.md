@@ -3,6 +3,7 @@
 #### 1. Description
 ```
 This unit complements the previous exercices related to the creation CRUD endpoints using Spring Tool Suite.
+
 Differences between exercices from this unit and previous one: 
 - Relation between entities is greater than bilateral. 
 - MySQL database is being used instead of embedded H2 database. 
