@@ -2,7 +2,7 @@
 
 #### 1. Description
 ```
-This unit complements the previous exercices related to the creation CRUD endpoints using Spring Tool Suite.
+This unit complements exercices from the previous unit related to the creation CRUD endpoints using Spring Tool Suite.
 
 Differences between exercices from this unit and previous one: 
 - Relation between entities is greater than bilateral. 
