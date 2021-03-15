@@ -6,7 +6,9 @@ This unit can be considered as a first introduction to HTML and CSS of the bootc
 
 Each exercice has for a goal to replicate the design of a HTML page given in the instructions of the task. 
 
-Visual Studio Code editor was used for such purpose. Plug-ins that were installed to make a life a little bit easier:
+Visual Studio Code editor was used for such purpose. Plug-ins that were installed to make a life 
+a little bit easier:
+
 - vscode-icons
 - Beautify
 - markdown-preview
