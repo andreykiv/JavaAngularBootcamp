@@ -1,0 +1,22 @@
+* {
+    background-color: navajowhite;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+h1 {
+    background-color: orange;
+}
+
+
+span {
+    color: blue;
+}
+
+.negrita {
+    font-weight: bold;
+    color: darkblue
+}
