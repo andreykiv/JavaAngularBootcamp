@@ -18,6 +18,7 @@ a little bit easier:
 #### 2. Tools used to run activities
 ```
 Visual Studio Code (VSC): 1.53.2
+Google Chrome: V. 89.0.4389.82 (64 bits)
 ```
 #### 3. Useful Links
 
