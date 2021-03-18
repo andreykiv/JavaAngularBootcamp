@@ -1,0 +1,36 @@
+table {
+    padding: 4px;
+    margin: 0px;
+    border: 2px solid blue;
+    box-shadow: inset -2px -2px 2px 2px #888;
+    border-spacing: 0px;
+}
+
+tr, th, td{
+    border: 2px solid blue;
+}
+
+td {
+    padding: 0px;
+    margin: 0px;
+}
+
+th {
+    width: 110px;
+}
+
+tr:nth-child(2){
+    background-color: #6eff77;
+}
+
+tr:nth-child(3){
+    background-color: #3acf43;
+}
+tr:nth-child(4){
+    background-color: #6eff77;
+}
+
+tr:nth-child(1){
+    background-color:#418245;
+    color: #6eff77;
+}

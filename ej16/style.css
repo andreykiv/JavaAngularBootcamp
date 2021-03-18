@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    color: rgb(160, 7, 7)
+}
+
+
+table {
+    padding: 4px;
+    margin: 0px;
+    border: 2px solid gray;
+    box-shadow: inset -2px -2px 2px 2px rgb(80, 77, 77);
+    border-spacing: 0px;
+    width: 97vw;
+    margin: auto;
+    background-image: url("../img/footprints.jpg");
+}
+
+tr, th, td{
+    margin: 2px;
+    border-top:2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+tr:nth-child(1){
+    background-color: #044206;
+}
+
+.brickColor{
+    background-color: rgb(226, 96, 49);
+}
+
+.yellowColor{
+    background-color: yellow;
+}
