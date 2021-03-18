@@ -3,7 +3,7 @@
 #### 1. Description
 ```
 This unit is the second part of the introduction to HTML and CSS. Elements such us 
-table (<table>) and div were highly practiced when creating doing exercices. Notions 
+table (<table>) and div were highly practiced when doing exercices. Notions 
 of correct image positioning were also important when successfully completing activities.
 
 Each exercice has for a goal to replicate the design of a HTML page given in the instructions of the task. 
