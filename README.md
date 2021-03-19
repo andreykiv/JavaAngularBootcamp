@@ -5,8 +5,8 @@
 Exercices of those units are made with a purpose to practice JavaScript. Notions of DOM manipulation was 
 heavily used in the last three exercices (Calculator, Photo collage expander, Digital online clock). 
 
-As in the previous unit, Visual Studio Code editor was used for such purpose. Plugins that were installed to make a life 
-a little bit easier:
+As in the previous unit, Visual Studio Code editor was used for such purpose. Plugins that were 
+installed to make a life a little bit easier:
 
 - vscode-icons
 - Beautify
