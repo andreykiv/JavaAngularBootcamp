@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej 14</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="./js/codigo.js"></script>
+    <noscript>Su navegador no tiene activado el soporte de JavaScript</noscript>
+</head>
+<body>
+    <div class=mainDiv>
+        <input type="text" id="display" placeholder="0.00" onclick="vaciar()">
+            <div class=btnsDivErasers>
+                <button class=largeButtons id="retr">Retr</button>
+                <button class=largeButtons id="ce" onclick="vaciar()">CE</button>
+                <button class=largeButtons id="c" onclick="vaciar()">C</button>
+            </div>
+            <div class=btnsDivOperations>
+                <button id="7" onclick="guardarNumero(this.id)">7</button>
+                <button id="8" onclick="guardarNumero(this.id)">8</button>
+                <button id="9" onclick="guardarNumero(this.id)">9</button>
+                <button id="/" onclick="guardarOperacion(this.id)">/</button>
+                <button id='raiz' onclick="raiz()">Raiz</button>
+                <button id='4' onclick="guardarNumero(this.id)">4</button>
+                <button id='5' onclick="guardarNumero(this.id)">5</button>
+                <button id='6' onclick="guardarNumero(this.id)">6</button>
+                <button id='*' onclick="guardarOperacion(this.id)">*</button>
+                <button id='%' onclick="vaciar()">%</button>
+                <button id='1' onclick="guardarNumero(this.id)">1</button>
+                <button id='2' onclick="guardarNumero(this.id)">2</button>
+                <button id='3' onclick="guardarNumero(this.id)">3</button>
+                <button id='-' onclick="guardarOperacion(this.id)">-</button>
+                <button id="1/x" onclick="unoEntreX()">1/x</button>
+                <button id='0' onclick="guardarNumero(this.id)">0</button>
+                <button id='+/-' onclick="cambiarSigno()">+/-</button>
+                <button id='.' onclick="addComma()">.</button>
+                <button id='+' onclick="guardarOperacion(this.id)">+</button>
+                <button id="=" onclick="calcular()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
