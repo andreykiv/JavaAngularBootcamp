@@ -2,8 +2,8 @@
 
 #### 1. Description
 ```
-Bootstrap and JQuery were used in the exercices of two units. In the exercice 8 both of those libraries were combined to create
-a calculator. 
+Bootstrap and JQuery were used in the exercices of those two units. In the exercice 8 both of those 
+libraries were combined to create a calculator. 
 
 As in the previous unit, Visual Studio Code editor was used for such purpose. Plugins that were 
 installed to make a life a little bit easier:
