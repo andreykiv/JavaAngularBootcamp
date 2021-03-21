@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: url("img/1.jpg");
+    background-size: cover;
+}
+
+form {
+    background-color: gray;
+}
+
+i {
+    padding-right: 0;
+    color: gray;
+    margin-right: 5px;
+}
+
+input {
+    margin-left: 50px;
+}
+.notcentered{
+    text-align: left;
+}
+
+.whiteBackground{
+    background-color: white;
+    color: gray;
+    margin: 0;
+    padding-top: 11px;
+}
+
+.adjustBtn {
+    width: 535px;
+    background-color: rgb(52, 235, 210);
+    border: 0px;
+    color: black;
+}
+
+.adjustBtnSocials{
+    background-color: black;
+}

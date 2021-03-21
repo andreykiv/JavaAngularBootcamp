@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    color: rgb(73, 158, 255);
+}
+
+.containerBackground{
+    background-color: #d3d3d3;
+}
+
+.contentForm{
+    margin: 10px;
+}
+
+i {
+    margin-right: 25px;
+}

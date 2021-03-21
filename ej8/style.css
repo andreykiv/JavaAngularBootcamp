@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(25, 151, 99);
+}
+
+.calculator{
+    width: 400px;
+    height: 420px;
+    margin: auto;
+    margin-top: 125px;
+}
+
+.display p {
+    margin-top: 5px;
+    border: 2px solid white;
+    width:400px;
+    color: black;
+    text-align: right;
+}
+
+.display{
+    background-color: white;
+    width: 400px;
+}
+
+.keyboard{
+    width: 400px;
+    margin: 0;
+}
+
+.numbers {
+    width: 300px;
+}
+
+.operators {
+    width: 100px;
+} 
+
+.numbers button {
+    width: 100px;
+    height:105px;
+    background-color: rgb(136, 48, 21);
+    color: white;
+    cursor: pointer;
+    border: 0px;
+    padding-top: 40px;
+} 
+
+.operators button {
+    width: 100px;
+    height:70px;
+    background-color: rgb(25, 151, 99);
+    color: white;
+    cursor: pointer;
+    border: 0px;
+    padding-top: 20px;
+}
+
+.operators button:hover {
+    background-color: rgb(22, 209, 131);
+}
+
+.numbers button:hover {
+    background-color: rgb(197, 71, 32);
+}
+
+#operation{
+    font-size: 25px;
+}
+
+#result{
+    font-size: 18px;
+}

@@ -1,0 +1,47 @@
+body {
+    background-color: lightgray;
+}
+
+img {
+    height: 30px;
+    width: 50px;
+    padding-right: 14px;
+}
+
+.navbar-custom .nav-item{
+    border-left: 2px solid #135883 ;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.navbar-custom .nav-item a:hover{
+    background-color: white;
+    color: black;
+}
+
+.configSearch{
+    height:30px !important;
+    margin-top: 5px;    
+}
+
+.userAreaConfig {
+    background-color: #135883;
+    margin-right: 0 !important;
+}
+.bg-navbar-custom{
+    background-color: #2199e4;
+}
+
+.fa-bars{
+    font-size: 20px;
+}
+
+.dropdown-menu{
+    background-color: #272b30;
+}
+
+.adjustedDropdown{
+    margin-left: 200px;
+}
