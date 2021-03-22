@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontal Ajax</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Frontal AJAX</h1>
+
+        <p>API Gratuita <a href="https://restcountries.eu/">REST Countries</a> tiene configurados las URI para el GET de cada uno de los siguientes endpoints:</p>
+    
+        <ul>
+            <li>https://restcountries.eu/rest/v2/all</li>
+            <li>https://restcountries.eu/rest/v2/name/{name}</li>
+            <li>https://restcountries.eu/rest/v2/name/{name}?fullText=true</li>
+            <li>https://restcountries.eu/rest/v2/alpha/{code}</li>
+            <li>https://restcountries.eu/rest/v2/alpha?codes={code};{code};{code}</li>
+            <li>https://restcountries.eu/rest/v2/currency/{currency}</li>
+            <li>https://restcountries.eu/rest/v2/lang/{et}</li>
+            <li>https://restcountries.eu/rest/v2/capital/{capital}</li>
+            <li>https://restcountries.eu/rest/v2/callingcode/{callingcode}</li>
+            <li>https://restcountries.eu/rest/v2/region/{region}</li>
+            <li>https://restcountries.eu/rest/v2/regionalbloc/{regionalbloc}</li>
+            <li>https://restcountries.eu/rest/v2/{service}?fields={field};{field};{field}</li>
+        </ul>
+    
+        <p>Sobre la API REST Countries realiza una consulta GET válida para cada uno de los end-points anteriores. Utiliza para ello la funcionalidad de AJAX. Se recomienda integrar Bootstrap en la interfaz visual.</p>
+    
+        <!-- <p>ACLARACIONES:</p>
+        <ul>
+            <li>Las consultas a la API deben estar validadas por token.</li>
+            <li>Has de configurar el acceso COSS ORIGIN en el código de la API.</li>
+            <li>El frontal se ha de realizar por medio de AJAX.</li>
+            <li>Integra Bootstrap.</li>
+        </ul> -->
+        <div class="d-flex flex-row justify-content-center ">
+                <button class="btn btn-primary" id="getAllData">Get all Data</button>
+                <button class="btn btn-primary" id="getCountry">Get Country</button>
+                <button class="btn btn-primary" id="getName">Get Name</button>
+                <button class="btn btn-primary" id="getCode">Get Code</button>
+                <button class="btn btn-primary" id="get3Codes">Get Three codes</button>
+                <button class="btn btn-primary" id="getCurrency">Get Currency</button>
+                <button class="btn btn-primary" id="getLang">Get Language</button>
+                <button class="btn btn-primary" id="getCapital">Get Capital</button>
+                <button class="btn btn-primary" id="getCallingCode">Get Calling Code</button>
+                <button class="btn btn-primary" id="getRegion">Get Region</button>
+                <button class="btn btn-primary" id="getRegionalBlock">Get Regional Block</button>
+                <button class="btn btn-primary" id="getThreeFields">Get Three Fields</button>
+        </div>
+        <p id="data"></p>
+    </div>
+</body>
+</html>
