@@ -2,10 +2,13 @@
 
 #### 1. Description
 ```
-In the first exercice the task was to make a get requests to an external API via AJAX and handle the output with JQuery.
+In the first exercice the task was to make a get requests to an external API via 
+AJAX and handle the output with JQuery.
 
-The task of the second exercice was to create an API REST (using Spring Tool Suite) and make the complete CRUD requests to the
-embedded database (H2). It was also important to configure CORS in the server side to make CRUD requests work. 
+The task of the second exercice was to create an API REST app (using Spring Tool Suite) 
+and make the complete CRUD requests to the
+embedded database (H2). It was also important to configure CORS in the server side to make 
+CRUD requests work. 
 
 Some complications that were met when doing those exerices: 
 1. When sending PUT and POST to the server, Spring couldn't 'understand' the format of 
